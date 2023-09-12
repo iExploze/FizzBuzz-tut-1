@@ -9,7 +9,8 @@ class FizzBuzz {
 
     public static void doFizzBuzz() {
         int i = 0;
-        while(i <= 10000) {
+        while(i <= 10000)
+        {
 
             // Find out which numbers divide i.
             boolean divisibleBy3 = i % 3 == 0;
